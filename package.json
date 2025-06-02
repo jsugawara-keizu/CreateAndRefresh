@@ -1,0 +1,14 @@
+{
+  "name": "refresh-project-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to retrieve Salesforce metadata project",
+  "main": "create_refresh_project.js",
+  "bin": {
+    "refresh-project": "./create_refresh_project.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jsforce": "latest"
+  }
+}
