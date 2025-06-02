@@ -1,22 +1,19 @@
-# Ignore node_modules
+# Node modules
 node_modules/
 
-# Ignore npm logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore local env files
-.env
-.env.local
-
-# Ignore OS metadata files
+# OS metadata
 .DS_Store
 Thumbs.db
 
-# Ignore build artifacts (if any)
+# Env files
+.env
+.env.local
+
+# Build artifacts (if any)
 dist/
 build/
-
-# Ignore lock file if you don't want to pin versions (optional, usually keep it)
-# package-lock.json
