@@ -162,6 +162,7 @@ async function fetchFolderItems(conn, folderType, itemType, apiVersion) {
   // 🇯🇵 メイン処理呼び出し / 🇺🇸 Run main retrieve logic
   await runRetrieveWithRetries(metadataTypes, standardObjects, reports, dashboards, documents, emails, notifications, latestVersion, initialExcludeTypes, 50);
   runGitCommitIfNeeded();
+<<<<<<< HEAD
 })();
 
 // 🇯🇵 メタデータ取得をリトライしながら実行する関数 / 🇺🇸 Function to run metadata retrieve with retries
@@ -320,3 +321,6 @@ function runGitCommitIfNeeded() {
     console.log('⚠️ Git Commitはスキップされました / Git commit was skipped');
   }
 }
+=======
+})();
+>>>>>>> 5b48bf2fa93cfcf2178c1de944c0927f567cb84b
